@@ -21,20 +21,20 @@ from random import  choice, randint
     
 )
 async def huhh(client: Client, message: Message):
-    await message.reply_video(
-        video=f"https://t.me/DEV_SAVIOO/3",
-        caption=f"- 𝐖𝐞𝐥𝐨𝐦𝐞 𝐓𝐨 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐨𝐭𝐮𝐬 𝐌𝐮𝐬𝐢𝐜 .",
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/93c01d015d6c369948d03.jpg",
+        caption=f"- 𝐖𝐞𝐥𝐨𝐦𝐞 𝐓𝐨 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐫𝐚𝐳𝐲 𝐌𝐮𝐬𝐢𝐜 .",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                   "𖥻 𝐆 𝐑 𝐎 𝐔 𝐏 .", url=f"https://t.me/C7_7M"), 
+                   "𖥻 𝐆 𝐑 𝐎 𝐔 𝐏 .", url=f"https://t.me/Q_CR_3"), 
                  InlineKeyboardButton(
-                   "𖥻 𝐒 𝐎 𝐔 𝐑 𝐂 𝐄 .",  url=f"https://t.me/l2_2Y"), 
+                   "𖥻 𝐒 𝐎 𝐔 𝐑 𝐂 𝐄 .",  url=f"https://t.me/Q_CR_6"), 
                  
              ],[ 
             InlineKeyboardButton(
-                        "𖥻 𝐀 𝐁 𝐃 𝐎 𝐨 .", url=f"https://t.me/II_U_6"), 
+                        "𖥻 𝐂 𝐑 𝐀 𝐙 𝐘  .", url=f"https://t.me/CRAZ_UP"), 
                       
                       
              ],[ 
@@ -50,9 +50,9 @@ async def huhh(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command(["مطور السورس","بودا","فوديكا","عبدو"], ""), group=73) 
+@app.on_message(filters.command(["مطور السورس","كريزي"], ""), group=73) 
 async def deev(client: Client, message: Message):
-     user = await client.get_chat(chat_id="II_U_6")
+     user = await client.get_chat(chat_id="CRAZ_UP")
      name = user.first_name
      username = user.username 
      bio = user.bio
@@ -69,7 +69,7 @@ async def deev(client: Client, message: Message):
        pass
      await message.reply_photo(
      photo=photo,
-     caption=f"𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝙽𝚊𝚖𝚎 : {name} \n𝚍𝚎𝚟 𝚞𝚜𝚎𝚛 𝚗𝚊𝚖𝚎 : @{username}\n**{bio}",
+     caption=f"𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝙽𝚊𝚖𝚎 : {name} \n𝚍𝚎𝚟 𝚞𝚜𝚎𝚛 𝚗𝚊𝚖𝚎 : @{username}\n{bio}",
      reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"{name}", user_id=f"{user_id}")]]))
      try:
        os.remove(photo)

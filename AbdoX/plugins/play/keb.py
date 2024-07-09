@@ -50,7 +50,7 @@ def reply_to_HEY(Client, message):
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("SoUrCe LoTuS", url=f"https://t.me/l2_2Y"),
+                InlineKeyboardButton("𓆩 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐑𝐀𝐙𝐘 𓆪", url=f"https://t.me/Q_CR_6"),
             ]
          ]
      )
