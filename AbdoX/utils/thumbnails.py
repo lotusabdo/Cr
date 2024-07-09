@@ -86,7 +86,7 @@ async def get_thumb(video_id):
         font2 = ImageFont.truetype(font_path, font2_size)  # خط جديد
         
         # وضع النص "MaZen PlAYiNg" بخط أكبر وحواف بيضاء
-        text = "LOTUS PlAYiNg"
+        text = "CRAZY PlAYiNg"
         position = (600, 150)
         text_color = "white"
         outline_color = "white"
