@@ -58,7 +58,7 @@ async def abrag(c: Client, m: Message):
 
          [InlineKeyboardButton("𖥻 𝐆 𝐑 𝐎 𝐔 𝐏 .", url=f"https://t.me/Q_CR_3")],
 
-         [InlineKeyboardButton("𖥻 𝐂 𝐑 𝐀 𝐙 𝐘 .", url=f"https://t.me/Q_CR_6")],
+         [InlineKeyboardButton("𖥻 𝐂 𝐑 𝐀 𝐙 𝐘 .", url=f"https://t.me/CH_CRAZ")],
 
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
 
